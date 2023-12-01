@@ -20,6 +20,8 @@
 		AA23FBD52AFED4B50004DC96 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23FBD42AFED4B50004DC96 /* InboxView.swift */; };
 		AA23FBD72AFED4BF0004DC96 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23FBD62AFED4BF0004DC96 /* TripsView.swift */; };
 		AA23FBD92AFED9EC0004DC96 /* TabIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23FBD82AFED9EC0004DC96 /* TabIcon.swift */; };
+		FB6489392B1A83750047334C /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6489382B1A83750047334C /* Places.swift */; };
+		FB64893B2B1A84F00047334C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64893A2B1A84F00047334C /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		AA23FBD42AFED4B50004DC96 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
 		AA23FBD62AFED4BF0004DC96 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
 		AA23FBD82AFED9EC0004DC96 /* TabIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabIcon.swift; sourceTree = "<group>"; };
+		FB6489382B1A83750047334C /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		FB64893A2B1A84F00047334C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 		AA19777F2AF5947100132982 /* airbnb-clone-b */ = {
 			isa = PBXGroup;
 			children = (
+				FB6489372B1A81F80047334C /* viewModel */,
+				FB6489362B1A81E30047334C /* models */,
 				AA23FBCD2AFED26A0004DC96 /* views */,
 				AA1977912AF5A10100132982 /* components */,
 				AA19778E2AF59B2A00132982 /* onboarding */,
@@ -116,6 +122,22 @@
 				AA23FBD62AFED4BF0004DC96 /* TripsView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		FB6489362B1A81E30047334C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FB6489382B1A83750047334C /* Places.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FB6489372B1A81F80047334C /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB64893A2B1A84F00047334C /* ContentViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +219,8 @@
 				AA1977932AF5A18300132982 /* Category.swift in Sources */,
 				AA23FBD92AFED9EC0004DC96 /* TabIcon.swift in Sources */,
 				AA23FBD52AFED4B50004DC96 /* InboxView.swift in Sources */,
+				FB64893B2B1A84F00047334C /* ContentViewModel.swift in Sources */,
+				FB6489392B1A83750047334C /* Places.swift in Sources */,
 				AA23FBD32AFED46F0004DC96 /* ProfileView.swift in Sources */,
 				AA23FBD12AFED4430004DC96 /* WishListView.swift in Sources */,
 			);
